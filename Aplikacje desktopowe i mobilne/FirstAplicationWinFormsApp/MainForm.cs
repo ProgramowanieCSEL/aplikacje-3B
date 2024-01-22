@@ -9,8 +9,12 @@ namespace FirstAplicationWinFormsApp
 
         private void buttonFirst_Click(object sender, EventArgs e)
         {
+            MessageBox.Show("Witaj w tym programie",
+                "Hello",
+                MessageBoxButtons.OK,
+                MessageBoxIcon.Exclamation
 
+            );
         }
-
     }
 }

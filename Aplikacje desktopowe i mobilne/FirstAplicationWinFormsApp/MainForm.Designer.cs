@@ -33,7 +33,7 @@
             // 
             // buttonFirst
             // 
-            buttonFirst.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 238);
+            buttonFirst.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             buttonFirst.Location = new Point(149, 111);
             buttonFirst.Name = "buttonFirst";
             buttonFirst.Size = new Size(228, 94);
@@ -47,7 +47,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(603, 410);
+            ClientSize = new Size(955, 367);
             Controls.Add(buttonFirst);
             Name = "MainForm";
             Text = "Pierwsza aplikacja";
